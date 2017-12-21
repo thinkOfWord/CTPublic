@@ -35,7 +35,7 @@
  * 常用block
  */
 
-typedef void (^CTNoValueBlock)        ();
+typedef void (^CTNoValueBlock)        (void);
 typedef void (^CTBoolBlock)           (BOOL flag);
 typedef void (^CTOneValueBlock)       (id model);
 typedef void (^CTTypeBlock)           (NSInteger type);
